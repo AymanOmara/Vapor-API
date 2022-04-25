@@ -14,5 +14,5 @@ func routes(_ app: Application) throws {
         return "Welcome from my API"
     }
 
-//    try app.register(collection: TodoController())
+    try app.register(collection: SongsController())
 }
